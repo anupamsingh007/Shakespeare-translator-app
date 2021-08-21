@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    text-align: center;
+    background-color: #0B0014;
+    background-image: url(image/brown.svg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: x-large;
+
+}
+
+
+header {
+    background-color: #8D80AD;
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 1.3rem;
+
+
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+#input {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+
+
+
+
+
+
+button {
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    background-color: #8D80AD;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text {
+    font-size: 1.5rem;
+
+    color: white;
+    margin-top: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+
+    background-color: white;
+    height: 6rem;
+    overflow: scroll;
+    margin-top: 1.5rem;
+    font-size: large;
+    outline: none;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: black;
+    background-color: #8D80AD;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+footer p {
+    width: 600px;
+    margin: auto;
+}
+
+footer div {
+    font-size: x-large;
+}
