@@ -1,7 +1,7 @@
 var input = document.querySelector('#input');
 var btn = document.querySelector('#translate');
 var output = document.querySelector('#output');
-var url = "https://api.funtranslations.com/translate/shakespeare.json"
+var url = "https://api.funtranslations.com/translate/klingon.json"
 
 
 btn.addEventListener('click', clickHandler)
